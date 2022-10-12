@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const getRandomNumber = function () {
-  let getRandom = Math.floor(Math.random() * Date.now());
+  let getRandom = Math.floor(Math.random() * 1000);
   return getRandom;
 };
 
