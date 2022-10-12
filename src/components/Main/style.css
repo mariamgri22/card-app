@@ -1,0 +1,12 @@
+.card-container {
+  height: calc(100vh - 100px);
+  overflow: auto;
+  position: relative;
+  top: 50px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
